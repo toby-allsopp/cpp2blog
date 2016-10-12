@@ -1,0 +1,26 @@
+name:                cpp2blog
+version:             0.1.0.0
+synopsis:            Converts C++ source files with special sections into Markdown
+description:         Please see README.md
+homepage:            https://github.com/toby-allsopp/cpp2blog#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Toby Allsopp
+maintainer:          toby@mi6.gen.nz
+copyright:           2016 Toby Allsopp
+category:            Web
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+executable cpp2blog
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , filepath >= 1.4 && < 2
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/toby-allsopp/cpp2blog
