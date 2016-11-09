@@ -21,19 +21,17 @@ int main() {
 
 It will produce output like:
 
-~~~~markdown
-~~~c++
-#include <iostream>
-~~~
-
-Here is the `main` function.
-
-~~~c++
-int main() {
-  cout << "Hello\n";
-}
-~~~
-~~~~
+    ~~~c++
+    #include <iostream>
+    ~~~
+    
+    Here is the `main` function.
+    
+    ~~~c++
+    int main() {
+      cout << "Hello\n";
+    }
+    ~~~
 
 ## Usage
 
